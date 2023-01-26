@@ -15,7 +15,9 @@ namespace BackEnd.Data
         }
         public DbSet<Registration> tblregistration { get; set; }
         public DbSet<Complaints> tblcomplaints { get; set; }
-        public DbSet<Uploads> uploads { get; set; }
+        public DbSet<Category> tblcategory { get; set; }
+        public DbSet<Desc> tbldesc { get; set; }
+        public DbSet<Country> tblcountry { get; set; }
 
     }
 }
