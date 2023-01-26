@@ -14,5 +14,7 @@ namespace BackEnd.Models
         public string email { get; set; }
         public string subject { get; set; }
         public string message { get; set; }
+        public int Registrationid { get; set; }
+        public string status { get; set; }
     }
 }
